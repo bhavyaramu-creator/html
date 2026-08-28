@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>My Food Menu</title>
+    <style>
+        .menu{
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgb(0, 0, 0);
+            padding: 30px;
+        }
+        .title{
+            color: rgb(190, 247, 4);
+        }
+        .title+.intro{
+
+            background-color: rgb(6, 13, 232);
+            padding: 10px;
+            display: inline-block;
+        }
+        .foodlist{padding: 0;
+        }
+        .foodlist>.food{
+            list-style: none;
+            padding: 10px;
+            margin: 5px auto;
+            width:250px;
+            background-color: rgb(3, 168, 239);
+        }
+        .food:nth-child(3){background-color:red;color: antiquewhite;}
+
+        .desc{color: antiquewhite;}
+
+        .desc::first-letter{font-size: 200%;color: rgb(238, 0, 0);}
+        
+        .link{color: chartreuse;margin: 10px;}
+
+        .link:hover{background-color: antiquewhite;color: black;}
+    </style>
+</head>
+<body class="menu">
+    <h1 class="title">My Food Menu</h1>
+   <p class="intro">pick your favourite dish</p>
+
+   <ul class="foodlist">
+    <li class="food">pizza</li>
+    <li class="food">burger</li>
+    <li class="food">noodles</li>
+   </ul>
+
+   <p class="desc">every dish is made with love and flavour</p>
+
+   <a class="link" href="#">order now</a><br>
+   <a class="link" href="#">see more</a>
+    
+</body>
+</html>
