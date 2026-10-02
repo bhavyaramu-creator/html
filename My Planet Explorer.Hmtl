@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>My Planet Explorer</title>
+     <link rel="stylesheet"
+
+href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<style>
+    body{
+        background-color: rgb(0, 0, 3);
+        color:darkgray;
+    }
+    
+</style>
+</head>
+<body>
+    <div class="container mt-4">
+        <h2 class="galaxy">Looking for stars in our galaxy</h2>
+
+        <div class="spinner-border text-primary"></div>
+        <div class="spinner-border text-success"></div>
+        <div class="spinner-border text-danger"></div>
+        <div class="spinner-border text-info"></div>
+
+        <h2 class="galaxy">Featured Planets</h2>
+
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card bg-primary text-white">
+                    <div class="card-body">
+                      <h3 class="card-title">Earth</h3>
+                      <p class="card-text">Earth is our home and the third planet from the sun</p>
+                      <a href="#" class="btn btn-primary">Explore</a>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <h5 class="galaxy">Browse More Planets</h5>
+
+        <ul class="pagination">
+           <li class="page-item">
+            <a href="#" class="page-link">Previous</a>
+           </li>
+           
+            <li class="page-item">
+            <a href="#" class="page-link">1</a>
+           </li>
+
+            <li class="page-item">
+            <a href="#" class="page-link">2</a>
+           </li>
+
+            <li class="page-item">
+            <a href="#" class="page-link">3</a>
+           </li>
+
+         <li class="page-item">
+            <a href="#" class="page-link">4</a>
+           </li>
+
+            <li class="page-item">
+            <a href="#" class="page-link">Next-></a>
+           </li>
+        </ul>
+    </div>
+</body>
+</html>
