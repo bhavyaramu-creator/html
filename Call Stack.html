@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>Call Stack </title>
+</head>
+<body>
+    <button onclick="start()">Click me</button>
+    <p id="output"></p>
+
+    <script>
+        function first(){
+            second();
+        }
+         function second(){
+            third();
+        }
+         function third(){
+             document.getElementById("output").innerHTML ="Third function executed";
+;
+        }
+         function start(){
+            first();
+        }
+    </script>
+    
+</body>
+</html>
